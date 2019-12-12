@@ -9,20 +9,534 @@
         <meta name="format-detection" content="telephone=no">
         <meta name="robots" content="noindex, nofollow" />            
         <title>BRIGIT DIAGNOSTICS Co., Ltd</title>
-        <link rel="stylesheet" type="text/css" href="dbuy/plugins/owlslide/owl.carousel.css">
-        <link rel="stylesheet" type="text/css" href="dbuy/plugins/owlslide/owl.theme.default.css">
-        <link rel="stylesheet" type="text/css" href="dbuy/css/selectric.css">
-        <link rel="stylesheet" type="text/css" href="dbuy/css/common.css">
-        <script type="text/javascript" src="dbuy/js/jquery-3.2.1.min.js"></script>
-        <script type="text/javascript" src="dbuy/plugins/owlslide/owl.carousel.js"></script>
-        <script type="text/javascript" src="dbuy/plugins/owlslide/owl.carousel2.thumbs.js"></script>
-        <script type="text/javascript" src="dbuy/js/jquery.selectric.min.js"></script>
-        <script type="text/javascript" src="dbuy/js/jquery.uniform.min.js"></script>
-        <script type="text/javascript" src="dbuy/js/navigation.js"></script>
-        <script type="text/javascript" src="dbuy/js/common.js"></script>
+        <link rel="stylesheet" type="text/css" href="./plugins/owlslide/owl.carousel.css">
+        <link rel="stylesheet" type="text/css" href="./plugins/owlslide/owl.theme.default.css">
+        <link rel="stylesheet" type="text/css" href="./css/selectric.css">
+        <link rel="stylesheet" type="text/css" href="./css/common.css">
+        <script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="./plugins/owlslide/owl.carousel.js"></script>
+        <script type="text/javascript" src="./plugins/owlslide/owl.carousel2.thumbs.js"></script>
+        <script type="text/javascript" src="./js/jquery.selectric.min.js"></script>
+        <script type="text/javascript" src="./js/jquery.uniform.min.js"></script>
+        <script type="text/javascript" src="./js/navigation.js"></script>
+        <script type="text/javascript" src="./js/common.js"></script>
     </head>
 
-    <body class="gMain">
-        <h1>Hello</h1>
-    </body>
+<body class="gMain">
+    <!-- skip navigation -->
+    <div id="skipnavigation">
+        <ul class="skip">
+        <li><a href="#body">본문내용 바로가기</a></li>
+        <li><a href="#gnbNavi">메인메뉴 바로가기</a></li>
+        </ul>
+    </div>
+    <!-- //skip navigation -->
+
+<!-- wrap -->
+<div id="wrap">
+	<!-- header -->
+	<div id="header">
+		<div class="bg">
+			<h1>
+				<a href="http://www.dbuyans.com/">
+					<span class="forWeb"><img src="dbuy/images/logo.png" alt="디바이언스"></span>
+					<span class="forMobile"><img src="dbuy/images/logo_m.png" alt="디바이언스"></span>
+				</a>
+			</h1>
+			<!-- gnb -->
+			<div class="gnb">
+				<h2>네비게이션</h2>
+				<ul id="gnbNavi">
+				<li class="a">
+					<strong><a href="#jsAnchorAbout" class="jsSliding"><span>About Us</span></a></strong>
+				</li>
+				<li class="b">
+					<strong><a href="dbuy/portfolio.html"><span>Portfolio</span></a></strong>
+				</li>
+				<li class="c">
+					<strong><a href="#jsAnchorClient" class="jsSliding"><span>Clients</span></a></strong>
+				</li>
+				<li class="d">
+					<strong><a href="#jsAnchorService" class="jsSliding"><span>Service</span></a></strong>
+				</li>
+				<li class="e">
+					<strong><a href="#jsAnchorContact" class="jsSliding"><span>Contact</span></a></strong>
+				</li>
+				<li class="f">
+					<strong><a href="#jsAnchorQuestion" class="jsSliding"><span>문의하기</span></a></strong>
+				</li>
+				</ul>
+			</div>
+			<script type="text/javascript">initNavigation(0);</script>
+			<!-- //gnb -->
+			<a href="#jsAside" class="iAside">메뉴</a>
+		</div>
+	</div>
+	<!-- //header -->
+
+	
+	<!-- keymain -->
+	<div class="mKeymain">
+		<div class="owl-carousel owl-theme" id="jsKeymainRolling1">
+			<div class="item ls1"></div>
+			<div class="item ls2"></div>
+		</div>
+		<div class="con">
+			<span class="txt">
+				<strong class="ti">디바이언스와 함께<br> <strong>꿈을 현실로 완성하세요</strong></strong>
+				<span class="tx">여러분이 생각하는 웹사이트를 최고의 퀄리티로 제작해 드립니다.</span>
+				<a href="#jsAnchorQuestion" class="bt">문의하기</a>
+			</span>
+		</div>
+		<script type="text/javascript">
+		var jsKeymainRolling1 = $('#jsKeymainRolling1');
+		jsKeymainRolling1.owlCarousel({
+			items:1,
+			loop:true,
+			autoplay:true,
+			dots:false,
+			autoplayTimeout:5000,
+			nav: false,
+			margin:0
+		});
+		$(".mKeymain .iStop").on("click", function(){
+			$(this).hide();
+			$(".mKeymain .iStart").show();
+			jsKeymainRolling1.trigger('stop.owl.autoplay');
+		});
+		$(".mKeymain .iStart").on("click", function(){
+			$(this).hide();
+			$(".mKeymain .iStop").show();
+			jsKeymainRolling1.trigger('play.owl.autoplay',[1000]);
+		});
+		</script>
+	</div>
+	<!-- //keymain -->
+
+	<!-- main1 -->
+	<div class="mMain1" id="jsAnchorAbout">
+		<div class="bg">
+			<h4 class="mTitle1 type2"><span>ABOUT US</span></h4>
+			<p class="mInfo2">
+				디바이언스는 크로스미디어 커뮤니케이션을 통해 고객 니즈에 적합한 통합적 멀티미디어 서비스를 제공하고 있는 에이전시입니다.<br>
+				저희의 핵심역량인 디자인 노하우와 기술력 및 인프라를 기반으로 새로운 가치를 창조하고 실현하고 있습니다.
+			</p>
+			<div class="img">
+				<span class="forWeb"><img src="dbuy/images/img_main1.png" alt=""></span>
+				<div class="forMobile">
+					<div class="owl-carousel owl-theme" id="jsAbout">
+						<!-- item -->
+						<div class="item">
+							<div class="im"><img src="dbuy/images/ico_main1_1.png" alt="전문적인 기획과 디자인 서비스"></div>
+							<div class="ti">전문적인 기획과 디자인 서비스</div>
+							<div class="tx">고객의 니즈를 정확히 파악한 전문적인<br> 기획/디자인 서비스 제공</div>
+						</div>
+						<!-- //item -->
+						<!-- item -->
+						<div class="item">
+							<div class="im"><img src="dbuy/images/ico_main1_2.png" alt="고객 맞춤형 서비스"></div>
+							<div class="ti">고객 맞춤형 서비스</div>
+							<div class="tx">고객의 요구를 정확히 파악한<br> 고객 맞춤형 서비스 제공</div>
+						</div>
+						<!-- //item -->
+						<!-- item -->
+						<div class="item">
+							<div class="im"><img src="dbuy/images/ico_main1_3.png" alt="다양한 플랫폼 서비스"></div>
+							<div class="ti">다양한 플랫폼 서비스</div>
+							<div class="tx">웹,모바일,쇼핑몰,어플리케이션 등<br> 다양한 서비스 개발</div>
+						</div>
+						<!-- //item -->
+					</div>
+					<script type="text/javascript">
+					var jsAbout = $('#jsAbout');
+					jsAbout.owlCarousel({
+						items:1,
+						loop:true,
+						autoplay:true,
+						dots:false,
+						autoplayTimeout:5000,
+						nav: true,
+						margin:0
+					});
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //main1 -->
+
+	<!-- main2 -->
+	<div class="mMain2" id="jsAnchorPortfolio">
+		<div class="bg">
+			<h4 class="mTitle1 type2"><span>PORTFOLIO</span></h4>
+			<p class="mInfo2">최고의 파트너와 함께한 프로젝트입니다.</p>
+			<div class="owl-carousel owl-theme" id="jsPortfolio">
+				<!-- item -->
+				<div class="item">
+					<div class="mList1">
+						<ul>
+				<!-- <li>
+					<a href="dbuy/web_1.html">
+						<span class="img"><img src="dbuy/port/web/p0/s1.jpg" alt=""></span>
+						<span class="txt">한국산업단지공단</span>
+					</a>
+				</li> -->
+				<li>
+					
+					<a href="dbuy/web_5.html">
+						<span class="img"><img src="dbuy/port/web/p4/s1.jpg" alt=""></span>
+						<span class="txt">소상공인진흥공단</span>
+					</a>
+				</li>
+				<li>
+					<a href="dbuy/com_2.html">
+						<span class="img"><img src="dbuy/port/com/p1/s1.jpg" alt=""></span>
+						<span class="txt">토니모리</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="dbuy/web_2.html">
+						<span class="img"><img src="dbuy/port/web/p1/s1.jpg" alt=""></span>
+						<span class="txt">경기도 상권영향분석 서비스</span>
+					</a>
+				</li>
+				<li>
+					<a href="dbuy/etc_5.html">
+						<span class="img"><img src="dbuy/port/etc/p4/s1.jpg" alt=""></span>
+						<span class="txt">(GUI) 올레 비즈 톡</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="dbuy/web_3.html">
+						<span class="img"><img src="dbuy/port/web/p2/s1.jpg" alt=""></span>
+						<span class="txt">KT BigSight 관광솔루션</span>
+					</a>
+				</li>
+				<li>
+					<a href="dbuy/etc_8.html">
+						<span class="img"><img src="dbuy/port/etc/p7/s1.jpg" alt=""></span>
+						<span class="txt">(프로모션) 제네시스 G70 런칭기념</span>
+					</a>
+				</li>
+
+
+
+
+						</ul>
+					</div>
+				</div>
+				<!-- //item -->
+				<!-- item -->
+				<div class="item">
+					<div class="mList1">
+						<ul>
+				<li>
+					<a href="dbuy/com_3.html">
+						<span class="img"><img src="dbuy/port/com/p2/s1.jpg" alt=""></span>
+						<span class="txt">KT commerce</span>
+					</a>
+				</li>
+
+
+				<li>
+					<a href="dbuy/web_4.html">
+						<span class="img"><img src="dbuy/port/web/p3/s1.jpg" alt=""></span>
+						<span class="txt">농협물류</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="dbuy/com_13.html">
+						<span class="img"><img src="dbuy/port/com/p12/s1.jpg" alt=""></span>
+						<span class="txt">K쇼핑</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="dbuy/web_5.html">
+						<span class="img"><img src="dbuy/port/web/p4/s1.jpg" alt=""></span>
+						<span class="txt">소상공인진흥공단</span>
+					</a>
+				</li>
+				<li>
+					<a href="dbuy/com_1.html">
+						<span class="img"><img src="dbuy/port/com/p0/s1.jpg" alt=""></span>
+						<span class="txt">즙쟁이</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="dbuy/web_10.html">
+						<span class="img"><img src="dbuy/port/web/p9/s1.jpg" alt=""></span>
+						<span class="txt">현대스틸산업</span>
+					</a>
+				</li>
+
+						</ul>
+					</div>
+				</div>
+				<!-- //item -->
+
+				<!-- item -->
+				<div class="item">
+					<div class="mList1">
+						<ul>
+
+				<li>
+					<a href="dbuy/web_15.html">
+						<span class="img"><img src="dbuy/port/web/p14/s1.jpg" alt=""></span>
+						<span class="txt">서울시 골목상권분석 서비스</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="dbuy/web_28.html">
+						<span class="img"><img src="dbuy/port/web/p27/s1.jpg" alt=""></span>
+						<span class="txt">한수원 지식관리시스템</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="dbuy/etc_1.html">
+						<span class="img"><img src="dbuy/port/etc/p0/s1.jpg" alt=""></span>
+						<span class="txt">(GUI) 신세계 데이터 센터</span>
+					</a>
+				</li>
+				<li>
+					<a href="dbuy/etc_2.html">
+						<span class="img"><img src="dbuy/port/etc/p1/s1.jpg" alt=""></span>
+						<span class="txt">(GUI) LG TV KBO경기</span>
+					</a>
+				</li>
+
+
+				<li>
+					<a href="dbuy/etc_9.html">
+						<span class="img"><img src="dbuy/port/etc/p8/s1.jpg" alt=""></span>
+						<span class="txt">제네시스 메일링 가이드</span>
+					</a>
+				</li>
+				<li>
+					<a href="dbuy/etc_10.html">
+						<span class="img"><img src="dbuy/port/etc/p9/s1.jpg" alt=""></span>
+						<span class="txt">(프로모션) 제네시스 G70 페스티벌</span>
+					</a>
+				</li>
+
+						</ul>
+					</div>
+				</div>
+				<!-- //item -->
+			</div>
+			<a href="dbuy/portfolio.html" class="btn">전체보기</a>
+			<script type="text/javascript">
+			var jsPortfolio = $('#jsPortfolio');
+			jsPortfolio.owlCarousel({
+				items:1,
+				loop:true,
+				autoplay:true,
+				dots:false,
+				autoplayTimeout:6000,
+				nav: true,
+				margin:0
+			});
+			</script>
+		</div>
+	</div>
+	<!-- //main2 -->
+
+	<!-- main3 -->
+	<div class="mMain3" id="jsAnchorClient">
+		<div class="bg">
+			<h4 class="mTitle1 type2"><span>CLIENTS</span></h4>
+			<p class="mInfo2">
+				<strong class="ti">100분의 고객과 1년을 함께하기 보다는 1분의 고객과 100년을 함께 합니다.</strong><br>
+				디바이언스는 업계 최고 수준의 클라이언트들에게 최상의 결과물을 개발,공급하고 있으며 고객의 기업 목표 달성을 위해 최선을 다하고 있습니다.<br>
+				디바이언스는 고객과의 장기적인 파트너쉽을 통해 고객 비즈니스를 돕고 있습니다. 
+			</p>
+			<div class="img"><img src="dbuy/images/img_main3_1.png" alt="CLIENTS"></div>
+		</div>
+	</div>
+	<!-- //main3 -->
+
+	<!-- main4 -->
+	<div class="mMain4" id="jsAnchorService">
+		<div class="bg">
+			<h4 class="mTitle1 type2"><span>SERVICE</span></h4>
+			<p class="mInfo2">
+				최고의 성공파트너가 되기위해 저희 디바이언스는 최선을 다하겠습니다.<br>
+				고객의 비즈니스의 경쟁력을 강화하기위한 저희 디바이언스의 서비스입니다.
+			</p>
+			<ul>
+			<li class="ls1">
+				<div class="lsBg">
+					<div class="ti">Website Dev/Maintenance</div>
+					<div class="tx">
+						<div class="i">웹사이트 신규 구축 & 리뉴얼 구축</div>
+						<div class="i">웹사이트 관리 및 유지보수</div>
+						<div class="i">웹사이트 운영대행</div>
+					</div>
+				</div>
+			</li>
+			<li class="ls2">
+				<div class="lsBg">
+					<div class="ti">Mobile Development</div>
+					<div class="tx">
+						<div class="i">모바일 서비스 기획</div>
+						<div class="i">모바일 웹사이트 구축 & 리뉴얼 구축</div> 
+						<div class="i">모바일 웹사이트 관리 및 유지보수</div>
+						<div class="i">모바일 웹사이트 운영대행</div>
+						<div class="i">아이폰앱, 안드로이드 앱 개발</div>
+					</div>
+				</div>
+			</li>
+			<li class="ls3">
+				<div class="lsBg">
+					<div class="ti">E-Commerce</div>
+					<div class="tx">
+						<div class="i">쇼핑몰 컨설팅</div>
+						<div class="i">쇼핑몰 구축 및 유지보수</div>
+						<div class="i">쇼핑몰 운영대행 서비스</div>
+						<div class="i">쇼핑몰 홍보마케팅 대행 서비스</div>
+						<div class="i">쇼핑몰 상품공급 서비스</div>
+					</div>
+				</div>
+			</li>
+			</ul>
+		</div>
+	</div>
+	<!-- //main4 -->
+
+	<!-- main5 -->
+	<div class="mMain5" id="jsAnchorContact">
+		<div class="text">
+			<div class="textBg">
+				<h4 class="mTitle1 type2"><span>Contact</span></h4>
+				<ul>
+				<li class="ls1">서울특별시 강동구 아리수로91길 24-9 1021호<br> (강일동, 포스코포디움1동)</li>
+				<li class="ls2">070-8738-9386 / 010-3203-9386</li>
+				<li class="ls3"><a href="mailto:donker@dbuyans.com">donker@dbuyans.com</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="map">
+			<!-- * 카카오맵 - 지도퍼가기 -->
+			<!-- 1. 지도 노드 -->
+			<div id="daumRoughmapContainer1564129583860" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+			<!--
+				2. 설치 스크립트
+				* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+			-->
+			<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+			<!-- 3. 실행 스크립트 -->
+			<script charset="UTF-8">
+				new daum.roughmap.Lander({
+					"timestamp" : "1564129583860",
+					"key" : "uiey",
+					"mapWidth" : "600",
+					"mapHeight" : "375"
+				}).render();
+			</script>
+		</div>
+	</div>
+	<!-- //main5 -->
+
+	<!-- main6 -->
+	<div class="mMain6" id="jsAnchorQuestion">
+		<div class="bg">
+			<h4 class="mTitle1 type2"><span>문의하기</span></h4>
+			<p class="mInfo2">
+				(주)디바이언스와 함께, 성공적인 비즈니스를 만드세요.<br>
+				고객님의 성공을 위해 저희는 모든 역량을 다해 최선의 결과를 만들어드리겠습니다.<br>
+				이메일(donker@dbuyans.com) 또는 대표전화(070-8738-9386)으로 <br>
+				부담없이 문의주시면 자세한 견적과 상담을 드리겠습니다.
+			</p>
+
+			<!-- 접수문의 가림 
+
+			<dl>
+			<dt>연락처번호</dt>
+			<dd>
+				<div class="gIt"><input type="text" class="it" title="연락처번호를 입력해주세요." placeholder="연락처번호를 입력해주세요."></div>
+			</dd>
+			<dt>이메일</dt>
+			<dd>
+				<div class="gIt"><input type="text" class="it" title="이메일을 입력해주세요." placeholder="이메일을 입력해주세요."></div>
+			</dd>
+			<dt>성함</dt>
+			<dd>
+				<div class="gIt"><input type="text" class="it" title="성함을 입력해주세요." placeholder="성함을 입력해주세요."></div>
+			</dd>
+			<dt>첨부파일</dt>
+			<dd>
+				<div class="gIt"><input type="text" class="it" title="(선택) 첨부파일 선택해주세요." placeholder="(선택) 첨부파일 선택해주세요."></div>
+
+			</dd>
+			<dt>내용</dt>
+			<dd class="w100per">
+				<div class="gTextarea"><textarea class="textarea" title="내용을 입력해주세요." placeholder="내용을 입력해주세요."></textarea></div>
+			</dd>
+			</dl>
+			<a href="#jsQuestionLayer" class="btn jsBtnQuestion">문의하기</a>
+
+			접수문의 가림 -->
+
+
+			<!-- layer -->
+			<div id="jsQuestionLayer" class="mLayer1">
+				<div class="layerBg">
+					<h4>문의 감사합니다.</h4>
+					<p class="tx">문의하신 내용은 빠른 시일내에 자세히 검토후에<br> 연락드리겠습니다.</p>
+					<a href="#jsQuestionLayer" class="bt">확인</a>
+					<a href="#jsQuestionLayer" class="iClose">문의완료 레이어 닫기</a>
+				</div>
+			</div>
+			<!-- //layer -->
+		</div>
+	</div>
+	<!-- //main6 -->
+
+	<!-- footer -->
+	<footer id="footer">
+		<div class="bg">
+			<span class="logo">
+				<span class="forWeb"><img src="dbuy/images/logo_footer.png" alt="디바이언스"></span>
+				<span class="forMobile"><img src="dbuy/images/logo_footer_m.png" alt="디바이언스"></span>
+			</span>
+			<p class="txt">
+				<span class="brForMobile">(주)디바이언스 <span class="bar">|</span> 대표이사 추봉광</span>
+				<span class="bar forWeb">|</span> 서울특별시 강동구 아리수로91길 24-9 1021호<br>
+				TEL. 070-8738-9386  E-mail. <a href="mailto:donker@dbuyans.com">donker@dbuyans.com</a><br>
+				<span class="copy">Copyright &copy; 디바이언스. All rights reserved.</span>
+			</p>
+			<a href="#wrap" class="iTop">페이지 위로 이동</a>
+		</div>
+	</footer>
+	<!-- //footer -->
+	
+</div>
+<!-- //wrap -->
+
+
+<!-- mobile menu -->
+<div class="modalBgAside"></div>
+<div id="jsAside" class="mAside">
+	<a href="#jsAside" class="close">닫기</a>
+	<div class="asideBg">
+		<ul>
+		<li><strong><a href="#jsAnchorAbout" class="jsSliding">About Us</a></strong></li>        
+		<li><strong><a href="dbuy/portfolio.html">Portfolio</a></strong></li>
+		<li><strong><a href="#jsAnchorClient" class="jsSliding">CLIENTS</a></strong></li>
+		<li><strong><a href="#jsAnchorService" class="jsSliding">SERVICE</a></strong></li>
+		<li><strong><a href="#jsAnchorContact" class="jsSliding">CONTACT</a></strong></li>
+		<li><strong><a href="#jsAnchorQuestion">문의하기</a></strong></li>
+		</ul>
+	</div>
+</div>
+<!-- //mobile menu -->
+
+</body>
 </html>
