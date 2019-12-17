@@ -169,7 +169,7 @@ input[type="checkbox"]:checked + label span{background-position:0 -50px;}
 .owl-theme .owl-dots .owl-dot a{background:transparent;background:#fff;filter:alpha(opacity=50);opacity:0.5;-moz-opacity:0.5;border-radius:50%;margin:0 5px;width:16px;height:16px;}
 .owl-theme .owl-dots .owl-dot.active a,
 .owl-theme .owl-dots .owl-dot:hover a{background:#fff;filter:alpha(opacity=100);opacity:1;-moz-opacity:1;}
-.owl-theme .owl-nav{position:absolute;top:-41px;right:139px;}
+.owl-theme .owl-nav{position:absolute;top:-41px;right:9px;}
 .owl-theme .owl-nav .owl-prev,
 .owl-theme .owl-nav .owl-next{display:block;float:left;position:static;background:url(../images/ico_prev2.png) 50% 50% no-repeat #fff;text-indent:-9999px;font-size:0;border-radius:42px;margin-left:10px;width:42px;height:42px;}
 .owl-theme .owl-nav .owl-next{background-image:url(../images/ico_next2.png);}
@@ -234,7 +234,7 @@ input[type="checkbox"]:checked + label span{background-position:0 -50px;}
 .mList1{margin:0 auto;width:961px;}
 .mList1 ul{margin-left:-20px;zoom:1;}
 .mList1 ul:after{display:block;clear:both;content:''}
-.mList1 li{float:left;background-color:#fff;margin:0 0 20px 20px;text-align:center;padding:8px 8px 0;width:291px;}
+.mList1 li{float:left;background-color:#fff;margin:0 0 20px 20px;text-align:center;padding:8px 8px 0;width:100%;}
 .mList1 li a{text-decoration:none;}
 .mList1 li .img{display:block;}
 .mList1 li .txt{display:block;color:#2c2c2c;font-size:16px;padding:17px 0 0;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;height:51px;}
@@ -337,7 +337,7 @@ input[type="checkbox"]:checked + label span{background-position:0 -50px;}
 
 		.mMain2{padding:45px 0;}
 		.mMain2 .mInfo2{padding-bottom:40px;}
-		.mMain2 .owl-theme .owl-nav{top:-64px;right:auto;left:50%;margin-left:-116px;}
+		.mMain2 .owl-theme .owl-nav{top:-64px;right:auto;left:50%;margin-left:-50px;}
 		.mMain2 .owl-nav .owl-prev,
 		.mMain2 .owl-nav .owl-next{display:inline-block;;float:none;background:url(../images/ico_prev2_m.png) 50% 50% no-repeat #fff;background-size:9px auto;text-indent:-9999px;font-size:0;margin:0 2px;vertical-align:middle;}
 		.mMain2 .owl-nav .owl-next{background-image:url(../images/ico_next2_m.png);}
